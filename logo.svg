@@ -1,0 +1,30 @@
+<svg width="200" height="180" viewBox="0 0 1000 800" xmlns="http://www.w3.org/2000/svg">
+  <!-- Yellow frame left -->
+  <rect x="150" y="50" width="80" height="400" fill="#FFD700" rx="10"/>
+  
+  <!-- Blue frame right -->
+  <rect x="670" y="50" width="80" height="400" fill="#3D3B8C" rx="10"/>
+  
+  <!-- Yellow triangle bottom left -->
+  <polygon points="250,550 150,750 350,750" fill="#FFD700"/>
+  
+  <!-- Yellow parallelogram -->
+  <polygon points="350,200 500,200 600,500 450,500" fill="#FFD700"/>
+  
+  <!-- Yellow rectangle center -->
+  <rect x="520" y="150" width="90" height="350" fill="#FFD700" rx="5"/>
+  
+  <!-- Blue triangle 1 -->
+  <polygon points="420,150 550,150 485,350" fill="#3D3B8C"/>
+  
+  <!-- Blue triangle 2 -->
+  <polygon points="650,200 750,200 700,400" fill="#3D3B8C"/>
+  
+  <!-- Text -->
+  <text x="500" y="700" font-size="120" font-weight="bold" text-anchor="middle" fill="#3D3B8C" font-family="Arial, sans-serif">
+    АЛЬЯНС
+  </text>
+  <text x="500" y="820" font-size="100" font-weight="bold" text-anchor="middle" fill="#3D3B8C" font-family="Arial, sans-serif">
+    ТЕХНОСЕРВИС
+  </text>
+</svg>
