@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Образовательная платформа</title>
+  <link rel="stylesheet" href="styles/main.css" />
+</head>
+<body>
+  <header class="main-nav">
+    <div class="nav-container container">
+      <img class="logo" src="logo.png" alt="Логотип" />
+      <ul class="nav-links">
+        <li><a href="#home">Главная</a></li>
+        <li><a href="#courses">Курсы</a></li>
+        <li><a href="#classes">Классы</a></li>
+        <li><a href="#3d-models">3D</a></li>
+      </ul>
+      <div class="language-switcher">
+        <button data-lang="ru">RU</button>
+        <button data-lang="kk">KK</button>
+        <button data-lang="en">EN</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="container" id="home">
+    <section class="hero">
+      <h1 id="hero-title">Образовательная платформа</h1>
+      <p id="hero-subtitle">Выбирайте курсы, изучайте материалы и развивайтесь!</p>
+    </section>
+
+    <section id="courses">
+      <h2>Доступные курсы</h2>
+      <div class="course-grid" id="course-grid"></div>
+    </section>
+
+    <section id="classes">
+      <h2>Классы</h2>
+      <div class="class-buttons" id="class-buttons"></div>
+      <p id="active-class-info">Текущий класс: 5 класс</p>
+    </section>
+
+    <section id="3d-models">
+      <h2>Интерактивные 3D модели</h2>
+      <div class="model-viewer-container">3D Viewer (заглушка)</div>
+    </section>
+  </main>
+
+  <div class="ai-widget" id="ai-widget">
+    <div class="ai-header">
+      <span>AI-помощник</span>
+      <button id="ai-close">✕</button>
+    </div>
+    <div class="ai-messages" id="ai-messages">
+      <div class="ai-message">Привет! Я помогу с курсами.</div>
+    </div>
+    <div class="ai-input-area">
+      <input id="ai-input" type="text" placeholder="Напиши сообщение..." />
+      <button id="ai-send">Отправить</button>
+    </div>
+  </div>
+
+  <footer>
+    <p>© 2026 Образовательная платформа</p>
+  </footer>
+
+  <script src="scripts/app.js"></script>
+</body>
+</html>
